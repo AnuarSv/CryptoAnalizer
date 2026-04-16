@@ -2,12 +2,12 @@ package ru.javarush.sultanbekov.cryptoanalizer;
 
 import ru.javarush.sultanbekov.cryptoanalizer.controllers.MainController;
 import ru.javarush.sultanbekov.cryptoanalizer.entity.Result;
-import ru.javarush.sultanbekov.cryptoanalizer.exception.AppException;
+import ru.javarush.sultanbekov.cryptoanalizer.exceptions.AppException;
 
 import java.util.Arrays;
 
 public class Application {
-    public MainController mainController;
+    public final MainController mainController;
 
     public Application() {
         mainController = new MainController();
