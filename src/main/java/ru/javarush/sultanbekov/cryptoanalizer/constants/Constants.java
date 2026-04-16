@@ -1,0 +1,10 @@
+package ru.javarush.sultanbekov.cryptoanalizer.constants;
+
+public class Constants {
+    private static final String rus = "йцукенгшщзхъфывапролджэячсмитьбю";
+    private static final String eng = "qwertyuiopasdfghjklzxcvbnm";
+    private static final String cypher = "0123456789";
+    private static final String z = "!&#$%^&*(){}[]";
+
+    public static final String ALPHABET = rus + eng + rus.toUpperCase() + eng.toUpperCase() + cypher + z;
+}

@@ -1,0 +1,16 @@
+package ru.javarush.sultanbekov.cryptoanalizer;
+
+import ru.javarush.sultanbekov.cryptoanalizer.entity.Result;
+
+public class ConsoleRunner {
+    public static void main(String[] args) {
+        Application application = new Application();
+        Result result = application.run(args);
+        System.out.println(result);
+    }
+}
+
+//int key=123;
+//String alphabet = rus + eng + cypher + z;
+//String text = "Привет медведь";
+//String result = "..............";
